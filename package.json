@@ -1,0 +1,25 @@
+{
+  "name": "testlio-1",
+  "version": "1.0.0",
+  "description": "Testlio Technical Interview",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "npx cypress open",
+    "cy:run": "npx cypress run",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:firefox": "cypress run --browser firefox"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Damascustogah007/testlio.git"
+  },
+  "author": "Charles Togah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Damascustogah007/testlio/issues"
+  },
+  "homepage": "https://github.com/Damascustogah007/testlio#readme",
+  "devDependencies": {
+    "cypress": "^10.8.0"
+  }
+}
