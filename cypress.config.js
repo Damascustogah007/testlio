@@ -25,5 +25,19 @@ module.exports = defineConfig({
     viewportWidth: 1366,
     viewportHeight: 768,
     scrollBehavior: "center",
+    slowTestThreshold: 10 * 1000,
+    specPattern: 'cypress/e2e/**/*.cy.{js,jsx,ts,tsx}',
+    videosFolder: 'cypress/videos',
+    video: false,
+    trashAssetsBeforeRuns: true,
+    screenshotsFolder: 'cypress/screenshots',
+    downloadsFolder: 'cypress/downloads'
+  },
+
+  component: {
+    devServer: {
+      framework: "react",
+      bundler: "webpack",
+    },
   },
 });
